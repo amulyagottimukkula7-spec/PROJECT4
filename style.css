@@ -1,0 +1,42 @@
+.container{
+    width: 300px;
+    height:300px;
+    border: 10px solid red;
+    background-image: url(./assets/WhatsApp\ Image\ 2026-03-28\ at\ 10.01.24\ PM.jpeg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+}
+
+.scroll{
+    height:100%;
+    transform: translateX(100%);
+    transition: all 1s linear 0s;
+   
+    
+   
+}
+.container:hover>.scroll{
+    transform: translateX(0PX);
+}
+
+.text{
+    width: 300px;
+    height:300px;
+    border: 10px solid black;
+    background-image:url(./assets/WhatsApp\ Image\ 2026-03-28\ at\ 10.01.49\ PM.jpeg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+}
+.para{
+    height:100% ;
+     transform: translateX(100%);
+    transition: all 1s linear 0s;
+
+}
+.text:hover>.para{
+    transform: translateX(0PX);
+}
